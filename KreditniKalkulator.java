@@ -19,14 +19,15 @@ public class KreditniKalkulator {
 		System.out.println("Unosite vrijednost glavnice ");
 		glavnica = in.nextDouble();
 
-		Scanner in1 = new Scanner(System.in);
+		
 		System.out.println("Unesite procentualnu vrijednost kamatne stope ");
-		kamata = in1.nextDouble();
+		kamata = in.nextDouble();
 
 		Scanner in2 = new Scanner(System.in);
 		System.out.println("Unesite broj mjeseci za otplatu kredita ");
 		mjesec = in2.nextInt();
-        double procKamata = kamata/100;
+       
+		double procKamata = kamata/100;
 		double ukupanDug = glavnica * procKamata + glavnica;
 		System.out.println("Ukupan dug koji cete vrati je " + ukupanDug +" KM");
 		double mjesecnaRata = ukupanDug / mjesec;
