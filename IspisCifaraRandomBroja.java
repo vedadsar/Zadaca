@@ -10,7 +10,7 @@ package com.zvedad.zadaca;
 public class IspisCifaraRandomBroja {
 	public static void main(String[] args) {
 		int min = 10000;
-		int max = 10000;
+		int max = 100000;
 
 		int broj = (int) (min + Math.random() * (max - min + 1));
 		System.out.println(broj);
