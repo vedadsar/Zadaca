@@ -18,7 +18,8 @@ public class KreditniKalkulator {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Unosite vrijednost glavnice ");
 		glavnica = in.nextDouble();
-
+		
+		//ima li potrebe za 2 odnosno 3 inputa (Scanner-a) ?
 		Scanner in1 = new Scanner(System.in);
 		System.out.println("Unesite procentualnu vrijednost kamatne stope ");
 		kamata = in1.nextDouble();
