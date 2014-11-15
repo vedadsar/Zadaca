@@ -12,18 +12,18 @@ import java.util.Scanner;
 
 public class Piramida {
 	public static void main(String[] args) {
-		int stranica;
-		int visina;
+		double stranica;
+		double visina;
 
 		Scanner in = new Scanner(System.in);
 		System.out.println("Unesite vrijednost stranice ");
-		stranica = in.nextInt();
+		stranica = in.nextDouble();
 
 		Scanner in1 = new Scanner(System.in);
 		System.out.println("Unesite vrijednost visine piramide ");
-		visina = in1.nextInt();
+		visina = in1.nextDouble();
 
-		int baza = stranica * stranica;
+		double baza = stranica * stranica;
 		double zapreminaPiramide = (double) ((stranica * visina) / 3);
 		double bocneStranicePiramide = (double) ((stranica * visina) / 2);
 		double obimPiramide = (double) (4 * bocneStranicePiramide + baza);

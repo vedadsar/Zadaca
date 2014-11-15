@@ -12,16 +12,16 @@ import java.util.Scanner;
 
 public class Sfera {
 	public static void main(String[] args) {
-		int poluprecnik;
-		int visina;
+		double poluprecnik;
+		double visina;
 
 		Scanner in = new Scanner(System.in);
 		System.out.println("Unesite vrijednost stranice ");
-		poluprecnik = in.nextInt();
+		poluprecnik = in.nextDouble();
 
 		Scanner in1 = new Scanner(System.in);
 		System.out.println("Unesite vrijednost visine piramide ");
-		visina = in1.nextInt();
+		visina = in1.nextDouble();
 
 		double zapreminaSfere = (double) ((2 * poluprecnik * poluprecnik
 				* Math.PI * visina)/3);
