@@ -11,10 +11,14 @@ public class IspisCifaraRandomBroja {
 	public static void main(String[] args) {
 		int min = 10000;
 		int max = 100001;
-
+		//koji je najveci broj koji mozes ovdje dobiti ? Da li je za taj broj ostatak koda validan
 		int broj = (int) (min + Math.random() * (max - min + 1));
 		System.out.println(broj);
 		
+		/*trebalo je ispisati cifre u obrnutom redoslijedu - 12345 bi ispisalo 5 4 3 2 1
+		  Da li se ovaj kod moze napisati sa mnje varijabli? Pokusaj da mijenjas vrijednost varijable "broj"
+		  i da koristis operator za ostatak
+		*/
 		int petiBroj = (int) broj / 10000;
 		System.out.println(petiBroj);
 		
