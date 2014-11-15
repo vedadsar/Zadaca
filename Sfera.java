@@ -18,10 +18,9 @@ public class Sfera {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Unesite vrijednost stranice ");
 		poluprecnik = in.nextDouble();
-
-		Scanner in1 = new Scanner(System.in);
+		
 		System.out.println("Unesite vrijednost visine piramide ");
-		visina = in1.nextDouble();
+		visina = in.nextDouble();
 
 		double zapreminaSfere = (double) ((2 * poluprecnik * poluprecnik
 				* Math.PI * visina)/3);

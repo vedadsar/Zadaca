@@ -18,10 +18,9 @@ public class Piramida {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Unesite vrijednost stranice ");
 		stranica = in.nextDouble();
-
-		Scanner in1 = new Scanner(System.in);
+		
 		System.out.println("Unesite vrijednost visine piramide ");
-		visina = in1.nextDouble();
+		visina = in.nextDouble();
 
 		double baza = stranica * stranica;
 		double zapreminaPiramide = (double) ((stranica * visina) / 3);
